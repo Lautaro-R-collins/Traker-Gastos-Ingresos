@@ -4,7 +4,7 @@
 
 ## Descripción
 
-**Tracker Ingresos Gastos** es una aplicación web diseñada para gestionar y visualizar tus finanzas personales de forma sencilla y eficiente. Permite a los usuarios agregar, visualizar y eliminar transacciones de ingresos y gastos, manteniendo un historial detallado de las operaciones y calculando automáticamente el balance total. Además, la aplicación incluye una gráfica de torta que muestra el porcentaje de ingresos y gastos para una mejor comprensión visual de tus finanzas.
+**Tracker Ingresos Gastos**  Permite a los usuarios agregar, visualizar y eliminar transacciones de ingresos y gastos, manteniendo un historial detallado de las operaciones y calculando automáticamente el balance total. Además, la aplicación incluye una gráfica de torta que muestra el porcentaje de ingresos y gastos para una mejor comprensión visual de tus finanzas.
 
 ## Funcionalidades
 
