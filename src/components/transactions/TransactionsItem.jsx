@@ -7,7 +7,7 @@ export function TransactionsItem({transaction}) {
 
   return (
     <>
-    <li className="bg-zinc-600 text-withe px-3 py-1 rounded-lg mb-2 w-full flex justify-between items-center gap-2">
+    <li className="bg-gray-900 text-withe px-3 py-1 rounded-lg mb-2 w-full flex justify-between items-center gap-2">
         <p className="text-sm ">{transaction.description}</p>
         <div>
         <span>${transaction.amount}</span>

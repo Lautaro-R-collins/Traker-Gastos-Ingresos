@@ -10,33 +10,36 @@ import { ExpenseChat } from "./components/ExpenseChart.jsx";
 function App() {
   return (
 <GlobalProvider>
-  <div className="bg-zinc-900 text-white h-screen flex flex-col justify-center items-center gap-4">
- 
-    <div className="bg-zinc-800 p-4 rounded-lg w-full max-w-4xl text-center">
+  <div className="bg-gray-900 text-white min-h-screen overflow-y-auto flex flex-col justify-center items-center gap-4 p-4">
+    {/* Encabezado */}
+    <div className="bg-gray-800 p-4 rounded-lg w-full max-w-4xl text-center mt-4 sm:mt-0">
       <Header />
     </div>
 
-    <div className="flex gap-6 w-full max-w-4xl">
-  
-      <div className="bg-zinc-800 p-10  rounded-lg flex-1">
-        <ExpenseChat />
-      </div>
-      
+    {/* Contenedor de las secciones principales */}
+    <div className="flex flex-col md:flex-row gap-6 w-full max-w-4xl">
+      {/* Formularios e historial */}
       <div className="flex flex-col gap-6 flex-1">
-        <div className="bg-zinc-800 p-6 rounded-lg">
+        {/* Formulario de ingresos/gastos */}
+        <div className="bg-gray-800 p-6 rounded-lg shadow-md order-2 md:order-1">
           <IncomeExpenses />
           <Balance />
           <FormTransaction />
         </div>
 
-        <div className="bg-zinc-800 p-6 rounded-lg h-[210px]">
+        {/* Historial de transacciones */}
+        <div className="bg-gray-800 p-6 rounded-lg h-[210px] shadow-md order-3 md:order-2">
           <TransactionsList />
         </div>
+      </div>
+
+      {/* Gráfico de gastos */}
+      <div className="bg-gray-800 p-10 rounded-lg flex-1 shadow-lg order-1 md:order-3">
+        <ExpenseChat />
       </div>
     </div>
   </div>
 </GlobalProvider>
-
   )
 }
 

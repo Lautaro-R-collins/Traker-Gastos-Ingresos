@@ -24,10 +24,10 @@ export const ExpenseChat = () => {
 
   if (totalIncomes === 0 && totalExpenses === 0) {
     return (
-      <div className="bg-zinc-900 p-4 my-2 rounded-lg">
+      <div className="bg-gray-900 p-4 my-2 rounded-lg">
         <div className="h-full flex items-center justify-center w-full flex-col gap-5">
           <h1 className="text-3xl font-bold my-2 ">No hay nuevos ingresos</h1>
-          <svg xmlns="http://www.w3.org/2000/svg" width="316" height="316" fill="currentColor" class="bi bi-pie-chart-fill" viewBox="0 0 16 16">
+          <svg xmlns="http://www.w3.org/2000/svg" width="312" height="312" fill="currentColor" class="bi bi-pie-chart-fill" viewBox="0 0 16 16">
             <path d="M15.985 8.5H8.207l-5.5 5.5a8 8 0 0 0 13.277-5.5zM2 13.292A8 8 0 0 1 7.5.015v7.778zM8.5.015V7.5h7.485A8 8 0 0 0 8.5.015"/>
           </svg>
         </div>

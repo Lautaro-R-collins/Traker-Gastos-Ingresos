@@ -9,7 +9,7 @@
   }
 
   .scrollbar-thumb-rounded {
-    scrollbar-color: #383a3d #242525; /* thumb color and track color */
+    scrollbar-color: #11233f #0c0d18; /* thumb color and track color */
   }
 
   .scrollbar-thumb-rounded::-webkit-scrollbar {

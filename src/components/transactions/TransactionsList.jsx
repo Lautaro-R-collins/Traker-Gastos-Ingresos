@@ -6,7 +6,7 @@ function TransactionsList() {
 
   if (transactions.length === 0) {
     return (
-      <div className="bg-zinc-900 p-4 my-2 rounded-lg">
+      <div className="bg-gray-900 p-4 my-2 rounded-lg">
         <div className="h-full flex items-center justify-center w-full flex-col">
           <h1 className="text-xl font-bold my-2">
             El historial esta vacio
